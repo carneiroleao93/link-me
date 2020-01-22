@@ -1,0 +1,58 @@
+body{
+    background-image: url('../images/bg2.jpg');
+    /* Faz a imagem caber na tela: */
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  color: black;
+
+  
+}
+.profile{
+    border-radius: 50%;
+    width: 24%;
+    border: 10px solid white;
+}
+.text{
+    font-size: 40px;
+    font-family: helvetica;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: helvetica;
+
+}
+/* O hover acontece quando o mouse passa por cima */
+.link:hover{
+    text-decoration: none;
+    color: #e48867;
+    font-size: 20px;
+}
+.space{
+    margin-right: 14px;
+    font-size: 16px;
+    font-family: helvetica;
+    ;
+}
+.btn{
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    color: white;
+    background-color: rgb(230, 83, 57);
+    border-color:rgb(230, 83, 57);
+    text-decoration: none;
+    font-family: Helvetica;
+}
+.btn:hover{
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    color: white;
+    background-color: rgb(255, 108, 82);
+    border-color:rgb(255, 108, 82);
+    text-decoration: none;
+    font-family: Helvetica;
+}
